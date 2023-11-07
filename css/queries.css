@@ -223,6 +223,10 @@ Instead, 1 rem = 1 em = 16px */
 /* BELOW 544px (phones) */
 /* ********************************* */
 @media (max-width: 34em) {
+  .section-how {
+    padding: 4.8rem 0;
+  }
+
   .grid {
     row-gap: 4.8rem;
   }
