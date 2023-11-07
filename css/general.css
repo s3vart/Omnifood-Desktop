@@ -48,6 +48,7 @@ html {
   /* font-size: 10px; */
   /* 10 px / 16px = 0.625 = 62.5%  va mentine marimea de 1 rem la 10 px*/
   font-size: 62.5%;
+  overflow-x: hidden;
 }
 
 body {
@@ -55,6 +56,9 @@ body {
   line-height: 1;
   font-weight: 400;
   color: #555;
+
+  /* Only works if there is nothing absolutely poisitioned in relation  to body */
+  overflow-x: hidden;
 }
 /*********************************************************/
 /* GENERAL REUSABLE COMPONENTS */
@@ -83,9 +87,9 @@ body {
 .grid--4-cols {
   grid-template-columns: repeat(4, 1fr);
 }
-.grid--5-cols {
+/* .grid--5-cols {
   grid-template-columns: repeat(5, 1fr);
-}
+} */
 
 .grid--center-v {
   align-items: center;
@@ -208,6 +212,7 @@ body {
   display: flex;
   align-items: center;
   gap: 1.6rem;
+  line-height: 1.2;
 }
 
 .list-icon {
