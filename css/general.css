@@ -49,6 +49,8 @@ html {
   /* 10 px / 16px = 0.625 = 62.5%  va mentine marimea de 1 rem la 10 px*/
   font-size: 62.5%;
   overflow-x: hidden;
+  /* Does NOT work on Safari and Edge */
+  /* scroll-behavior: smooth; */
 }
 
 body {
