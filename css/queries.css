@@ -125,6 +125,7 @@ Instead, 1 rem = 1 em = 16px */
   /* MOBILE NAVIGATION */
   .btn-mobile-nav {
     display: block;
+    z-index: 9999;
   }
 
   .main-nav {
